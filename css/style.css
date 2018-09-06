@@ -6677,13 +6677,12 @@ Jumbotrons / Sliders / Cards
 .img-pas {
   padding: 5px;
   transition: transform .2s;
-  margin: 0 auto;	
+  margin: 0 auto;
 }
 
 .img-pas:hover {
   transform: scale(1.5);
 }
-
 .colored-bg-container {
   background-color: #427aa1;
   background-attachment: fixed;
