@@ -6674,6 +6674,15 @@ Jumbotrons / Sliders / Cards
 .card-container {
   padding: 2rem 0; }
 
+.img-pop {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.img-pop:hover {
+  transform: scale(2);
+}
+
 .img-pas {
   padding: 5px;
   transition: transform .2s;
