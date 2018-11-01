@@ -6674,15 +6674,6 @@ Jumbotrons / Sliders / Cards
 .card-container {
   padding: 2rem 0; }
 
-.img-pop {
-  transition: transform .2s;
-  margin: 0 auto;
-}
-
-.img-pop:hover {
-  transform: scale(2);
-}
-
 .img-pas {
   padding: 5px;
   transition: transform .2s;
@@ -6719,8 +6710,14 @@ Jumbotrons / Sliders / Cards
   font-size: 1.1em; }
 
 .card-img-top {
-  opacity: 0.7;
-  height: auto; }
+  height: auto; 
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.card-img-top:hover {
+  transform: scale(1.5);
+}
 
 .card {
   background-color: #090909;
